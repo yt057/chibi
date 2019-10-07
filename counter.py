@@ -6,7 +6,7 @@ class Counter(object):
     def count(self):
         self.cnt += 1
 
-    def doublecount(self): #2回カウントする
+    def doublecount(self): #2回カウント
         self.cnt += 2
 
     def reset(self):
